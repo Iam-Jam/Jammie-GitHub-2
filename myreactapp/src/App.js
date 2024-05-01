@@ -1,35 +1,13 @@
-// import logo from './logo.svg';
-// import './App.css';
+import React from 'react';
+import Navbar from './PP4/Navbar';
+import About from './PP4/About';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload. Hello World! hi also!
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
-
-// export default App;
-
-
-function App () {
+function App() {
   return (
     <div className="App">
-        <h1>Welcome to WD99P React Training</h1>
-        <p>This is my first homepage using react js.</p>
+      <Navbar />
+      <About />
     </div>
   );
 }

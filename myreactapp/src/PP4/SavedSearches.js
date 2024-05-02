@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles.css';
 import hero1 from './assets/hero1.jpg'
 
-const Properties = () => {
+const SavedSearches = () => {
   return (
     <>
       <div className="card mb-3 prop-card-2">
@@ -37,4 +37,4 @@ const Properties = () => {
   );
 }
 
-export default Properties;
+export default SavedSearches;

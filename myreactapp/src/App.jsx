@@ -1,4 +1,4 @@
-// import React from 'react';
+import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './PP4/styles.css';
 import Navbar from './PP4/Navbar';

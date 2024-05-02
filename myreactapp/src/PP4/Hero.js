@@ -1,6 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles.css';
+import HeroImage from './assets/hero1.jpg'
 
 const Hero = () => {
   return (
@@ -30,7 +31,7 @@ const Hero = () => {
           </div>
           {/* Image column */}
           <div className="col-lg-7">
-            <img src="assets/hero 1.jpg" className="img-fluid" alt="..." />
+            <img className="img-fluid" src={HeroImage}  alt="Hero Image" />
           </div>
         </div>
       </main>
